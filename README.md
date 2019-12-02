@@ -6,6 +6,18 @@ A _very_ lightweight Prowl (https://www.prowlapp.com/) Python library written in
 
 Prowl is an app for iOS devices that allows you to send custom push notifications to devices. This is very useful for Raspberry Pi tinkering and notifying yourself when long running processes finish (e.g. fitting a random forest model on large a dataset). 
 
+#### Install
+
+```bash
+
+git clone https://github.com/graham-thomson/prowl.git
+
+cd prowl
+
+python3 -m pip install .
+
+```
+
 #### Usage
 
 ```python
